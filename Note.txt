@@ -1,0 +1,8 @@
+A look at the CUBE CSS methodology in action (https://www.youtube.com/watch?v=NanhQvnvbR8&t=77s)
+
+https://github.com/Annie-Huang/cube-css
+
+https://cube.fyi/
+https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
+
+----------------------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+{
+  "name": "cube-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/cube-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/cube-css/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/cube-css#readme"
+}

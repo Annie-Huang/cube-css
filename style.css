@@ -119,6 +119,19 @@ h2 {
 }
 
 /* composition */
+/* The same as below
+.flow > * + * {
+  margin-top: 1em;
+}
+*/
+.flow > :where(:not(:last-child)) {
+  margin-top: var(--flow-spacer, 1em);
+}
+/* this will stretch the button as well so choose anther name */
+.grid-flow {
+  display: grid;
+  gap: 1em;
+}
 
 /* utility */
 .padding-24 {

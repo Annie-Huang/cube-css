@@ -112,3 +112,27 @@ h2 {
   font-size: var(--fs-700);
   color: var(--clr-neutral-800);
 }
+
+/* composition */
+
+/* utility */
+.padding-24 {
+  padding: 1.5rem;
+}
+.padding-48 {
+  padding: 3rem;
+}
+
+.text-neutral-800 {
+  color: var(--clr-neutral-800);
+}
+.text-neutral-400 {
+  color: var(--clr-neutral-400);
+}
+
+.bg-neutral-100 {
+  color: var(--clr-neutral-100);
+}
+.bg-neutral-200 {
+  color: var(--clr-neutral-200);
+}

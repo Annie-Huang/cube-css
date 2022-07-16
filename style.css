@@ -1,10 +1,11 @@
+/* The base is all the 400 values */
 :root {
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-200: hsl(225, 100%, 98%);
   --clr-neutral-400: hsl(223, 23%, 55%, 1);
   --clr-neutral-800: hsl(223, 47%, 23%);
 
-  --clr-primary-100: hsl(225, 100% 94%);
+  --clr-primary-200: hsl(225, 100% 94%);
   --clr-primary-300: hsl(245, 83%, 68%, 1);
   --clr-primary-400: hsl(245, 75%, 52%);
 
@@ -90,4 +91,24 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+body {
+  font-family: 'Red Hat Text', scans-serif;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+  color: var(--clr-neutral-400);
+  background: var(--clr-primary-200);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: var(--fs-700);
+  color: var(--clr-neutral-800);
 }

@@ -5,7 +5,7 @@
   --clr-neutral-400: hsl(223, 23%, 55%, 1);
   --clr-neutral-800: hsl(223, 47%, 23%);
 
-  --clr-primary-200: hsl(225, 100% 94%);
+  --clr-primary-200: hsl(225, 100%, 94%);
   --clr-primary-300: hsl(245, 83%, 68%, 1);
   --clr-primary-400: hsl(245, 75%, 52%);
 
@@ -176,8 +176,16 @@ h2 {
   font-weight: var(--fw-900);
 }
 
+.br-1 {
+  border-radius: 0.5rem;
+}
+.br-2 {
+  border-radius: 1rem;
+}
+
 /* block */
 .card {
+  overflow: hidden;
   /* for demo only */
   max-width: 450px;
 }

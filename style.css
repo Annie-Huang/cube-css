@@ -131,9 +131,12 @@ h2 {
 /* this will stretch the button as well so choose anther name */
 .grid-flow {
   display: grid;
-  gap: 1em;
+  gap: var(--gap, 1rem);
 }
-
+.flex-row {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
 /* utility */
 .padding-24 {
   padding: 1.5rem;

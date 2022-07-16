@@ -115,6 +115,7 @@ h3 {
 
 h2 {
   font-size: var(--fs-700);
+  font-weight: var(--fw-900);
   color: var(--clr-neutral-800);
 }
 
@@ -164,6 +165,14 @@ h2 {
 .text-align-right {
   text-align: end;
 }
+
+.fw-bold {
+  font-weight: var(--fw-700);
+}
+.fw-black {
+  font-weight: var(--fw-900);
+}
+
 /* block */
 .card {
   /* for demo only */

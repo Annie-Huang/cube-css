@@ -183,23 +183,36 @@ h2 {
   border-radius: 1rem;
 }
 
+/* block */
 .button {
   cursor: pointer;
   text-decoration: none;
   border: 0;
   border-radius: 0.5rem;
-  color: var(--clr-neutral-100);
   font-weight: var(--fw-700);
-  background: var(--clr-primary-400);
+  background: transparent;
   padding: 1em 2em;
 }
+.button[data-type='primary'] {
+  color: var(--clr-neutral-100);
+  background: var(--clr-primary-400);
+}
 
-.button:hover,
-.button:focus {
+.button[data-type='primary']:hover,
+.button[data-type='primary']:focus {
   background: var(--clr-primary-300);
 }
 
-/* block */
+.button[data-type='naked'] {
+  color: var(--clr-neutral-400);
+  padding: 0;
+}
+
+.button[data-type='naked']:hover,
+.button[data-type='naked']:focus {
+  color: var(--clr-neutral-800);
+}
+
 .card {
   overflow: hidden;
   /* for demo only */

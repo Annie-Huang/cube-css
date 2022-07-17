@@ -120,6 +120,7 @@ h2 {
 }
 
 /* composition */
+
 /* The same as below
 .flow > * + * {
   margin-top: 1em;
@@ -181,6 +182,10 @@ h2 {
 }
 .br-2 {
   border-radius: 1rem;
+}
+
+.push-right {
+  margin-left: auto;
 }
 
 a,

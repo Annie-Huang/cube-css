@@ -183,6 +183,24 @@ h2 {
   border-radius: 1rem;
 }
 
+a,
+.link {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: var(--clr-primary-400);
+  text-decoration: underline;
+  font-weight: var(--fw-700);
+}
+
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: var(--clr-primary-300);
+  text-decoration: none;
+}
+
 /* block */
 .button {
   cursor: pointer;
